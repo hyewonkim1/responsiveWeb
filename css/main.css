@@ -339,7 +339,7 @@ overflow-y: scroll;
   width: 90%;
   height: auto;
   line-height: 50px;
-  margin-left: 20px;
+  margin-left: 10px;
   border-bottom: 1px solid #999;
 }
 
@@ -535,6 +535,10 @@ overflow-y: scroll;
   height: 100vh;
   overflow-y: scroll; 
   /*여기에 scroll해야 안짤리고 다보임*/
+}
+.header .menu_list .menu04 .sub_enter {
+  border: 3px solid black;
+  box-sizing: border-box;
 }
 .header .menu_list .menu04 .m04_1 {
   width: 100%;
@@ -2764,6 +2768,10 @@ overflow-y: scroll;
   }
   .header .lnb_box ul li {
     margin-left: 20px;
+  }
+  .header .lnb_box .lnb04 .sub_enter {
+    border: 3px solid black;
+    box-sizing: border-box;
   }
   .header .lnb_box .lnb05 li {
     display: flex;
